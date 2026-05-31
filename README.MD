@@ -19,14 +19,12 @@ Este portfólio reúne os trabalhos desenvolvidos durante o curso ADS, documenta
 - Acessibilidade básica: uso correto de `alt`, `label` e estrutura semântica para facilitar leitura por leitores de tela.
 - Deploy e versionamento: organizar branches e publicar no GitHub Pages.
 
-Dica: destaque principalmente *responsividade* e *otimização de imagens*, pois são pontos claramente observáveis durante a avaliação.
 
-## O que cada integrante fez (preencher com o que efetivamente ocorreu)
+## O que cada integrante fez 
 - Emanoel Sousa: organização do repositório, edição do `index.html`, implementação do `projetos e deploy.
 - Paulo do Carmo: prototipação e conteúdo do LogiTrack, criação de imagens e legendas, design visual.
 - Osvaldo Cavalcante: implementação do CSS responsivo, ajustes nas galerias de imagens, testes em dispositivos e ajuste final do layout.
 
-(Substitua as atribuições acima pelas funções reais de cada membro quando confirmar.)
 
 ## Links
 - GitHub Pages: (cole aqui a URL do site publicado, ex.: https://seu-usuario.github.io/repositorio)
