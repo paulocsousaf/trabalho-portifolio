@@ -14,10 +14,10 @@
     --branco: #ffffff;
     --cinza-claro: #f0f4f8;
     --cinza-texto: #5a6a7a;
-    --sombra: 0 4px 15px rgba(0, 0, 0, 0.12);
-    --sombra-hover: 0 8px 25px rgba(0, 0, 0, 0.18);
-    --raio: 12px;
-    --transicao: 0.3s ease;
+    --sombra: none;
+    --sombra-hover: none;
+    --raio: 4px;
+    --transicao: none;
 }
 
 /* --- Reset básico --- */
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     color: var(--azul-escuro);
@@ -71,7 +71,7 @@ ul {
     width: 100%;
     background-color: var(--azul-escuro);
     z-index: 1000;
-    box-shadow: var(--sombra);
+    box-shadow: none;
 }
 
 .header__conteudo {
@@ -117,7 +117,7 @@ ul {
     font-size: 0.95rem;
     border: none;
     cursor: pointer;
-    transition: transform var(--transicao), box-shadow var(--transicao), background-color var(--transicao);
+    transition: none;
 }
 
 .btn--principal {
@@ -127,8 +127,8 @@ ul {
 
 .btn--principal:hover {
     background-color: var(--azul-hover);
-    transform: translateY(-3px);
-    box-shadow: var(--sombra-hover);
+    transform: none;
+    box-shadow: none;
 }
 
 .btn--secundario {
@@ -140,7 +140,7 @@ ul {
 .btn--secundario:hover {
     background-color: var(--azul-claro);
     color: var(--azul-escuro);
-    transform: translateY(-2px);
+    transform: none;
 }
 
 /* --- Hero --- */
@@ -230,15 +230,15 @@ ul {
 .card {
     background-color: var(--branco);
     border-radius: var(--raio);
-    box-shadow: var(--sombra);
+    box-shadow: 1px 1px 1px #ccc;
     padding: 1.5rem;
     text-align: center;
-    transition: transform var(--transicao), box-shadow var(--transicao);
+    transition: none;
 }
 
 .card:hover {
-    transform: translateY(-6px);
-    box-shadow: var(--sombra-hover);
+    transform: none;
+    box-shadow: 1px 1px 1px #ccc;
 }
 
 .card h3 {
@@ -352,7 +352,7 @@ ul {
     background-color: var(--branco);
     padding: 2rem;
     border-radius: var(--raio);
-    box-shadow: var(--sombra);
+    box-shadow: 1px 1px 1px #ccc;
 }
 
 .formulario__grupo {
@@ -380,7 +380,7 @@ ul {
 
 .formulario input:focus,
 .formulario textarea:focus {
-    outline: none;
+    outline: 1px solid var(--azul-claro);
     border-color: var(--azul-claro);
 }
 
@@ -502,14 +502,14 @@ ul {
     background-color: var(--cinza-claro);
     border-radius: var(--raio);
     overflow: hidden;
-    box-shadow: var(--sombra);
-    transition: transform var(--transicao);
+    box-shadow: 1px 1px 1px #ccc;
+    transition: none;
     display: flex;
     flex-direction: column;
 }
 
 .galeria__item:hover {
-    transform: translateY(-4px);
+    transform: none;
 }
 
 .galeria__item img {
