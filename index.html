@@ -7,9 +7,9 @@
     <title>ADS em Código | Portfólio de Projetos</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="pagina-starwars">
 
-    <!-- HEADER -->
+    <!-- Cabeçalho: logo e menu de navegação -->
     <header class="header" id="topo">
         <div class="container header__conteudo">
             <h1 class="header__logo">ADS em Código</h1>
@@ -28,7 +28,7 @@
 
     <main>
 
-        <!-- HERO -->
+        <!-- Banner inicial -->
         <section class="hero" id="hero">
             <div class="container hero__conteudo">
                 <h2 class="hero__titulo">Projetos do curso de ADS</h2>
@@ -41,7 +41,7 @@
             </div>
         </section>
 
-        <!-- SOBRE -->
+        <!-- Sobre: descrição do portfólio -->
         <section class="secao" id="sobre">
             <div class="container">
                 <h2 class="secao__titulo">Sobre o Portfólio</h2>
@@ -66,39 +66,48 @@
             </div>
         </section>
 
-        <!-- AUTORES -->
-        <section class="secao secao--cinza" id="autores">
+        <!-- Perfil: autores do grupo -->
+        <section class="secao" id="autores">
             <div class="container">
                 <h2 class="secao__titulo">Autores do Portfólio</h2>
-                <p class="secao__subtitulo">Estudantes que reuniram e publicaram os projetos do curso neste site.</p>
+                <p class="secao__subtitulo">Que a Força esteja com a equipe — cada integrante com seu sabre de luz.</p>
                 <div class="cards-grid cards-grid--3">
 
-                    <article class="card card--integrante">
-                        <img src="img/perfil1.jpg" alt="Foto do autor 1" class="card__img card__img--perfil">
+                    <article class="card card--integrante card--jedi-vermelho">
+                        <div class="perfil-sabre perfil-sabre--vermelho">
+                            <img src="img/perfil1.jpg" alt="Foto do Emanoel Sousa" class="card__img card__img--perfil">
+                            <span class="sabre-luz sabre-luz--vermelho" aria-hidden="true"></span>
+                        </div>
                         <h3>Emanoel Sousa</h3>
                         <p>Organização do repositório e implementação principal</p>
-                        <p class="card__tag">Coordenador do projeto</p>
+                        <p class="card__tag card__tag--sabre">Coordenador do projeto</p>
                     </article>
 
-                    <article class="card card--integrante">
-                        <img src="img/perfil2.jpg" alt="Foto do Paulo do Carmo" class="card__img card__img--perfil">
+                    <article class="card card--integrante card--jedi-verde">
+                        <div class="perfil-sabre perfil-sabre--verde">
+                            <img src="img/perfil2.jpg" alt="Foto do Paulo do Carmo" class="card__img card__img--perfil">
+                            <span class="sabre-luz sabre-luz--verde" aria-hidden="true"></span>
+                        </div>
                         <h3>Paulo do Carmo</h3>
                         <p>Prototipação e design visual</p>
-                        <p class="card__tag">Designer e prototipador</p>
+                        <p class="card__tag card__tag--sabre">Designer e prototipador</p>
                     </article>
 
-                    <article class="card card--integrante">
-                        <img src="img/perfil3.jpg" alt="Foto do Osvaldo Cavalcante" class="card__img card__img--perfil">
+                    <article class="card card--integrante card--jedi-azul">
+                        <div class="perfil-sabre perfil-sabre--azul">
+                            <img src="img/perfil3.jpg" alt="Foto do Osvaldo Cavalcante" class="card__img card__img--perfil">
+                            <span class="sabre-luz sabre-luz--azul" aria-hidden="true"></span>
+                        </div>
                         <h3>Osvaldo Cavalcante</h3>
                         <p>CSS responsivo e testes em dispositivos</p>
-                        <p class="card__tag">Responsável por front-end e testes</p>
+                        <p class="card__tag card__tag--sabre">Responsável por front-end e testes</p>
                     </article>
 
                 </div>
             </div>
         </section>
 
-        <!-- TECNOLOGIAS -->
+        <!-- Tecnologias: linguagens e ferramentas do curso -->
         <section class="secao" id="habilidades">
             <div class="container">
                 <h2 class="secao__titulo">Tecnologias do Curso</h2>
@@ -139,8 +148,8 @@
             </div>
         </section>
 
-        <!-- PROJETOS -->
-        <section class="secao secao--cinza" id="projetos">
+        <!-- Projetos: cards com os trabalhos do curso -->
+        <section class="secao" id="projetos">
             <div class="container">
                 <h2 class="secao__titulo">Projetos do Curso</h2>
                 <p class="secao__subtitulo">Trabalhos desenvolvidos nas disciplinas de ADS.</p>
@@ -163,42 +172,19 @@
                     </article>
 
                     <article class="card card--projeto">
-                        <img src="img/projeto3.jpg" alt="Portfólio Responsivo" class="card__img">
-                            <h3>LogiTrack — Sistema de Rastreio e Gestão Logística</h3>
-                            <p>Permite localizar remessas, visualizar histórico de rotas e acompanhar status em tempo real.</p>
-                            <a href="projetos/projeto3.html" class="btn btn--secundario">Ver projeto</a>
-                    </article>
-
-                    <article class="card card--projeto">
-                        <img src="img/projeto4.jpg" alt="CRUD de Alunos" class="card__img">
-                        <h3>CRUD de Alunos</h3>
-                        <p class="card__disciplina">Disciplina: Banco de Dados</p>
-                        <p>Cadastro simples de alunos com criar, listar, editar e excluir registros no banco.</p>
-                        <a href="projetos/projeto4.html" class="btn btn--secundario">Ver projeto</a>
-                    </article>
-
-                    <article class="card card--projeto">
-                        <img src="img/projeto5.jpg" alt="Calculadora em Python" class="card__img">
-                        <h3>Calculadora em Python</h3>
-                        <p class="card__disciplina">Disciplina: Lógica de Programação</p>
-                        <p>Calculadora no terminal para praticar operações e estruturas de decisão.</p>
-                        <a href="projetos/projeto5.html" class="btn btn--secundario">Ver projeto</a>
-                    </article>
-
-                    <article class="card card--projeto">
-                        <img src="img/projeto6.jpg" alt="Landing Page" class="card__img">
-                        <h3>Landing Page</h3>
-                        <p class="card__disciplina">Disciplina: Desenvolvimento Web</p>
-                        <p>Página de apresentação de produto fictício, focada em layout e CSS.</p>
-                        <a href="projetos/projeto6.html" class="btn btn--secundario">Ver projeto</a>
+                        <img src="img/projeto3.jpg" alt="LogiTrack — Sistema de Rastreio e Gestão Logística" class="card__img">
+                        <h3>LogiTrack — Sistema de Rastreio e Gestão Logística</h3>
+                        <p>Permite localizar remessas, visualizar histórico de rotas e acompanhar status em tempo real.</p>
+                        <a href="projetos/projeto3.html" class="btn btn--secundario">Ver projeto</a>
+                        <a href="https://github.com/paulocsousaf/trabalho-portifolio" class="btn btn--github" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
                     </article>
 
                 </div>
             </div>
         </section>
 
-        <!-- CONTATO -->
-        <section class="secao secao--cinza" id="contato">
+        <!-- Contato: formulário -->
+        <section class="secao" id="contato">
             <div class="container">
                 <h2 class="secao__titulo">Contato</h2>
                 <p class="contato__intro">Tem dúvida sobre algum projeto ou quer dar um feedback? Envie uma mensagem.</p>
@@ -226,7 +212,7 @@
 
     </main>
 
-    <!-- FOOTER -->
+    <!-- Rodapé -->
     <footer class="footer">
         <div class="container">
             <p class="footer__direitos">&copy; 2026 ADS em Código</p>

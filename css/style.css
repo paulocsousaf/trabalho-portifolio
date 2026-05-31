@@ -1,11 +1,7 @@
-/* ============================================
-   ADS em Código - Portfólio de Projetos
-   HTML5 + CSS3 | Mobile First
-   ============================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-/* --- Variáveis --- */
+
 :root {
     --azul-escuro: #0d1b2a;
     --azul-medio: #1b3a5c;
@@ -20,7 +16,7 @@
     --transicao: none;
 }
 
-/* --- Reset básico --- */
+
 *,
 *::before,
 *::after {
@@ -56,14 +52,14 @@ ul {
     list-style: none;
 }
 
-/* --- Container --- */
+
 .container {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
 }
 
-/* --- Header fixo --- */
+
 .header {
     position: fixed;
     top: 0;
@@ -108,7 +104,7 @@ ul {
     color: var(--azul-escuro);
 }
 
-/* --- Botões --- */
+
 .btn {
     display: inline-block;
     padding: 0.75rem 1.8rem;
@@ -153,7 +149,7 @@ ul {
     background-color: #2d333b;
 }
 
-/* --- Hero --- */
+
 .hero {
     margin-top: 120px;
     background: linear-gradient(135deg, var(--azul-escuro) 0%, var(--azul-medio) 100%);
@@ -174,7 +170,7 @@ ul {
     color: #c8d9e8;
 }
 
-/* --- Seções --- */
+
 .secao {
     padding: 3.5rem 0;
 }
@@ -209,7 +205,7 @@ ul {
     margin: -1rem auto 2rem;
 }
 
-/* --- Sobre --- */
+
 .sobre p {
     margin-bottom: 1rem;
     color: var(--cinza-texto);
@@ -231,7 +227,7 @@ ul {
     margin-bottom: 0.4rem;
 }
 
-/* --- Cards --- */
+
 .cards-grid {
     display: grid;
     gap: 1.5rem;
@@ -275,6 +271,8 @@ ul {
     margin: 0 auto;
     object-fit: cover;
     border: 3px solid var(--azul-claro);
+    position: relative;
+    z-index: 2;
 }
 
 .card__tag {
@@ -282,6 +280,527 @@ ul {
     font-weight: 600;
     color: var(--azul-claro);
     font-size: 0.85rem;
+}
+
+
+/* Tema Star Wars: fundo escuro, estrelas, cores e cards */
+.pagina-starwars {
+    color: #e8ecf2;
+    background-color: #0a0a12;
+    background-image:
+        radial-gradient(1px 1px at 8% 15%, rgba(255, 255, 255, 0.75), transparent),
+        radial-gradient(1px 1px at 22% 42%, rgba(255, 255, 255, 0.5), transparent),
+        radial-gradient(1px 1px at 35% 78%, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(1px 1px at 48% 28%, rgba(255, 255, 255, 0.45), transparent),
+        radial-gradient(1px 1px at 62% 55%, rgba(255, 255, 255, 0.55), transparent),
+        radial-gradient(1px 1px at 75% 12%, rgba(255, 255, 255, 0.65), transparent),
+        radial-gradient(1px 1px at 88% 68%, rgba(255, 255, 255, 0.4), transparent),
+        radial-gradient(1px 1px at 95% 35%, rgba(255, 255, 255, 0.5), transparent),
+        radial-gradient(ellipse at top, #1a1a3a 0%, #0a0a12 55%);
+    background-attachment: fixed;
+}
+
+.pagina-starwars .header {
+    background-color: rgba(10, 10, 18, 0.95);
+    border-bottom: 1px solid #2a2a4a;
+}
+
+.pagina-starwars .header__logo {
+    color: #ffe81f;
+}
+
+.pagina-starwars .nav__lista a:hover {
+    background-color: #ffe81f;
+    color: #0a0a12;
+}
+
+.pagina-starwars .hero {
+    background: radial-gradient(ellipse at center, rgba(26, 26, 58, 0.85) 0%, transparent 70%);
+}
+
+.pagina-starwars .hero__titulo {
+    color: #ffe81f;
+    letter-spacing: 0.06em;
+}
+
+.pagina-starwars .secao,
+.pagina-starwars .secao--cinza {
+    background: transparent;
+}
+
+.pagina-starwars .secao__titulo {
+    color: #ffe81f;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.pagina-starwars .secao__titulo::after {
+    background-color: #ffe81f;
+}
+
+.pagina-starwars .secao__subtitulo,
+.pagina-starwars .contato__intro {
+    color: #b8c5d6;
+}
+
+.pagina-starwars .sobre p,
+.pagina-starwars .sobre .lista-sobre,
+.pagina-starwars .lista-sobre li {
+    color: #b8c5d6;
+}
+
+.pagina-starwars .sobre h3 {
+    color: #00b4ff;
+}
+
+.pagina-starwars .sobre strong {
+    color: #ffe81f;
+}
+
+.pagina-starwars .card {
+    background: linear-gradient(180deg, #141428 0%, #0d0d1a 100%);
+    border: 1px solid #2a2a4a;
+    box-shadow: 0 0 15px rgba(0, 180, 255, 0.1);
+}
+
+.pagina-starwars .card h3 {
+    color: #ffe81f;
+}
+
+.pagina-starwars .card p {
+    color: #b8c5d6;
+}
+
+.pagina-starwars .card__disciplina {
+    color: #00b4ff;
+}
+
+.pagina-starwars .card--habilidade {
+    border-top: 4px solid #00b4ff;
+}
+
+.pagina-starwars .card--habilidade h3::before {
+    color: #00b4ff;
+}
+
+.pagina-starwars .card--projeto .card__img {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a4a;
+}
+
+.pagina-starwars .btn--principal {
+    background-color: #ffe81f;
+    color: #0a0a12;
+}
+
+.pagina-starwars .btn--principal:hover {
+    background-color: #f5d800;
+}
+
+.pagina-starwars .btn--secundario {
+    background-color: #1b3a5c;
+    border: 1px solid #00b4ff;
+    color: #e8ecf2;
+}
+
+.pagina-starwars .btn--secundario:hover {
+    background-color: #00b4ff;
+    color: #0a0a12;
+}
+
+.pagina-starwars .formulario {
+    background: linear-gradient(180deg, #141428 0%, #0d0d1a 100%);
+    border: 1px solid #2a2a4a;
+    box-shadow: 0 0 20px rgba(0, 180, 255, 0.15);
+}
+
+.pagina-starwars .formulario label {
+    color: #ffe81f;
+}
+
+.pagina-starwars .formulario input,
+.pagina-starwars .formulario textarea {
+    background-color: #0a0a12;
+    border-color: #2a2a4a;
+    color: #e8ecf2;
+}
+
+.pagina-starwars .formulario input::placeholder,
+.pagina-starwars .formulario textarea::placeholder {
+    color: #6a7a8a;
+}
+
+.pagina-starwars .formulario input:focus,
+.pagina-starwars .formulario textarea:focus {
+    border-color: #00b4ff;
+    outline: none;
+}
+
+.pagina-starwars .footer {
+    background-color: rgba(10, 10, 18, 0.98);
+    border-top: 1px solid #2a2a4a;
+}
+
+.pagina-starwars .footer__direitos {
+    color: #b8c5d6;
+}
+
+
+/* Tema Star Wars: páginas de detalhe dos projetos */
+.pagina-starwars.pagina-projeto .projeto-detalhe__titulo {
+    color: #ffe81f;
+}
+
+.pagina-starwars.pagina-projeto .projeto-detalhe__disciplina {
+    color: #00b4ff;
+}
+
+.pagina-starwars.pagina-projeto .projeto-bloco h2 {
+    color: #ffe81f;
+    border-bottom-color: #2a2a4a;
+}
+
+.pagina-starwars.pagina-projeto .projeto-bloco p {
+    color: #b8c5d6;
+}
+
+.pagina-starwars.pagina-projeto .projeto-dica {
+    color: #00b4ff;
+}
+
+.pagina-starwars.pagina-projeto .galeria__item {
+    background-color: #141428;
+    border: 1px solid #2a2a4a;
+}
+
+.pagina-starwars.pagina-projeto .galeria__item img {
+    background-color: #1a1a2e;
+}
+
+.pagina-starwars.pagina-projeto .galeria__item figcaption {
+    color: #b8c5d6;
+}
+
+.pagina-starwars.pagina-projeto .projeto-bloco--destaque {
+    background-color: #141428;
+    border-left-color: #00b4ff;
+}
+
+.pagina-starwars.pagina-projeto .tabela {
+    background-color: #141428;
+    border: 1px solid #2a2a4a;
+}
+
+.pagina-starwars.pagina-projeto .tabela caption {
+    color: #b8c5d6;
+}
+
+.pagina-starwars.pagina-projeto .tabela thead {
+    background-color: #1a1a3a;
+}
+
+.pagina-starwars.pagina-projeto .tabela tbody tr:nth-child(even) {
+    background-color: #0d0d1a;
+}
+
+.pagina-starwars.pagina-projeto .tabela tbody tr:hover {
+    background-color: #1b3a5c;
+}
+
+.pagina-starwars.pagina-projeto .tabela th,
+.pagina-starwars.pagina-projeto .tabela td {
+    color: #e8ecf2;
+}
+
+.pagina-starwars.pagina-projeto .lista-tags li {
+    background-color: #1b3a5c;
+    border: 1px solid #00b4ff;
+}
+
+
+/* Tema Star Wars: perfil dos autores e sabres de luz */
+.card--integrante {
+    position: relative;
+    overflow: visible;
+    background: linear-gradient(180deg, #141428 0%, #0d0d1a 100%);
+    border: 1px solid #2a2a4a;
+    color: #e8ecf2;
+}
+
+.card--integrante h3 {
+    color: #ffe81f;
+}
+
+.card--integrante p {
+    color: #b8c5d6;
+}
+
+.card--jedi-azul {
+    box-shadow: 0 0 8px rgba(0, 180, 255, 0.08);
+    transition: box-shadow 0.35s ease;
+}
+
+.card--jedi-vermelho {
+    box-shadow: 0 0 8px rgba(255, 0, 64, 0.08);
+    transition: box-shadow 0.35s ease;
+}
+
+.card--jedi-verde {
+    box-shadow: 0 0 8px rgba(57, 255, 20, 0.06);
+    transition: box-shadow 0.35s ease;
+}
+
+.card--jedi-roxo {
+    box-shadow: 0 0 8px rgba(176, 38, 255, 0.08);
+    transition: box-shadow 0.35s ease;
+}
+
+.card--jedi-azul:hover {
+    box-shadow: 0 0 20px rgba(0, 180, 255, 0.25);
+}
+
+.card--jedi-vermelho:hover {
+    box-shadow: 0 0 20px rgba(255, 0, 64, 0.3);
+}
+
+.card--jedi-verde:hover {
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+}
+
+.card--jedi-roxo:hover {
+    box-shadow: 0 0 20px rgba(176, 38, 255, 0.25);
+}
+
+.perfil-sabre {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 0.5rem;
+}
+
+.perfil-sabre::before {
+    content: '';
+    position: absolute;
+    inset: -10px;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 0.25;
+    transition: opacity 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.perfil-sabre--azul::before {
+    border: 2px solid #004466;
+    box-shadow: none;
+}
+
+.perfil-sabre--vermelho::before {
+    border: 2px solid #550011;
+    box-shadow: none;
+}
+
+.perfil-sabre--verde::before {
+    border: 2px solid #1a5500;
+    box-shadow: none;
+}
+
+.perfil-sabre--roxo::before {
+    border: 2px solid #4a1070;
+    box-shadow: none;
+}
+
+.card--integrante:hover .perfil-sabre::before {
+    opacity: 1;
+    animation: sabre-pulso 2.5s ease-in-out infinite;
+}
+
+.card--integrante:hover .perfil-sabre--azul::before {
+    border-color: #00b4ff;
+    box-shadow: 0 0 12px #00b4ff, 0 0 28px rgba(0, 180, 255, 0.5);
+}
+
+.card--integrante:hover .perfil-sabre--vermelho::before {
+    border-color: #ff0040;
+    box-shadow: 0 0 12px #ff0040, 0 0 28px rgba(255, 0, 64, 0.5);
+}
+
+.card--integrante:hover .perfil-sabre--verde::before {
+    border-color: #39ff14;
+    box-shadow: 0 0 12px #39ff14, 0 0 28px rgba(57, 255, 20, 0.45);
+}
+
+.card--integrante:hover .perfil-sabre--roxo::before {
+    border-color: #b026ff;
+    box-shadow: 0 0 12px #b026ff, 0 0 28px rgba(176, 38, 255, 0.5);
+}
+
+.sabre-luz {
+    position: absolute;
+    top: 50%;
+    right: -38px;
+    width: 8px;
+    height: 90px;
+    transform: translateY(-50%) rotate(12deg);
+    transform-origin: bottom center;
+    border-radius: 4px;
+    z-index: 3;
+}
+
+.sabre-luz::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 14px;
+    height: 28px;
+    background: linear-gradient(90deg, #555, #999, #555);
+    border-radius: 3px;
+}
+
+.sabre-luz::after {
+    content: '';
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 0;
+    border-radius: 3px 3px 0 0;
+    opacity: 0;
+    box-shadow: none;
+    transition: height 0.35s ease, opacity 0.35s ease, box-shadow 0.35s ease;
+}
+
+.sabre-luz--azul::after {
+    background: linear-gradient(to top, #0077aa, #00b4ff, #aaf0ff);
+}
+
+.sabre-luz--vermelho::after {
+    background: linear-gradient(to top, #880020, #ff0040, #ff8090);
+}
+
+.sabre-luz--verde::after {
+    background: linear-gradient(to top, #1a9900, #39ff14, #c8ffb0);
+}
+
+.sabre-luz--roxo::after {
+    background: linear-gradient(to top, #6a10a8, #b026ff, #e8b0ff);
+}
+
+.card--integrante:hover .sabre-luz::after {
+    height: 66px;
+    opacity: 1;
+    animation: sabre-brilo 1.8s ease-in-out infinite;
+}
+
+.card--integrante:hover .sabre-luz--azul::after {
+    box-shadow: 0 0 10px #00b4ff, 0 0 20px rgba(0, 180, 255, 0.8);
+}
+
+.card--integrante:hover .sabre-luz--vermelho::after {
+    box-shadow: 0 0 10px #ff0040, 0 0 20px rgba(255, 0, 64, 0.8);
+}
+
+.card--integrante:hover .sabre-luz--verde::after {
+    box-shadow: 0 0 10px #39ff14, 0 0 20px rgba(57, 255, 20, 0.7);
+}
+
+.card--integrante:hover .sabre-luz--roxo::after {
+    box-shadow: 0 0 10px #b026ff, 0 0 20px rgba(176, 38, 255, 0.8);
+}
+
+.card--jedi-azul .card__img--perfil {
+    border-color: #004466;
+    transition: border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card--jedi-vermelho .card__img--perfil {
+    border-color: #550011;
+    transition: border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card--jedi-verde .card__img--perfil {
+    border-color: #1a5500;
+    transition: border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card--jedi-roxo .card__img--perfil {
+    border-color: #4a1070;
+    transition: border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card--jedi-azul:hover .card__img--perfil {
+    border-color: #00b4ff;
+    box-shadow: 0 0 12px rgba(0, 180, 255, 0.5);
+}
+
+.card--jedi-vermelho:hover .card__img--perfil {
+    border-color: #ff0040;
+    box-shadow: 0 0 12px rgba(255, 0, 64, 0.5);
+}
+
+.card--jedi-verde:hover .card__img--perfil {
+    border-color: #39ff14;
+    box-shadow: 0 0 12px rgba(57, 255, 20, 0.45);
+}
+
+.card--jedi-roxo:hover .card__img--perfil {
+    border-color: #b026ff;
+    box-shadow: 0 0 12px rgba(176, 38, 255, 0.5);
+}
+
+.card__tag--sabre {
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    opacity: 0.5;
+    transition: opacity 0.35s ease, color 0.35s ease;
+}
+
+.card--integrante:hover .card__tag--sabre {
+    opacity: 1;
+}
+
+.card--jedi-azul .card__tag--sabre {
+    color: #004466;
+}
+
+.card--jedi-vermelho .card__tag--sabre {
+    color: #550011;
+}
+
+.card--jedi-verde .card__tag--sabre {
+    color: #1a5500;
+}
+
+.card--jedi-roxo .card__tag--sabre {
+    color: #4a1070;
+}
+
+.card--jedi-azul:hover .card__tag--sabre {
+    color: #00b4ff;
+}
+
+.card--jedi-vermelho:hover .card__tag--sabre {
+    color: #ff0040;
+}
+
+.card--jedi-verde:hover .card__tag--sabre {
+    color: #39ff14;
+}
+
+.card--jedi-roxo:hover .card__tag--sabre {
+    color: #b026ff;
+}
+
+@keyframes sabre-pulso {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.65; }
+}
+
+@keyframes sabre-brilo {
+    0%, 100% { filter: brightness(1); }
+    50% { filter: brightness(1.35); }
 }
 
 .card--habilidade {
@@ -307,7 +826,7 @@ ul {
     margin-bottom: 0.4rem;
 }
 
-/* --- Tabela --- */
+
 .tabela-wrapper {
     overflow-x: auto;
 }
@@ -349,7 +868,7 @@ ul {
     background-color: #dce8f5;
 }
 
-/* --- Formulário --- */
+
 .contato__intro {
     text-align: center;
     color: var(--cinza-texto);
@@ -398,7 +917,7 @@ ul {
     width: 100%;
 }
 
-/* --- Footer --- */
+
 .footer {
     background-color: var(--azul-escuro);
     color: var(--branco);
@@ -428,9 +947,6 @@ ul {
     color: #8fa8bf;
 }
 
-/* ============================================
-   PÁGINAS DE PROJETO (detalhe)
-   ============================================ */
 
 .pagina-projeto .header--simples {
     position: relative;
@@ -575,11 +1091,29 @@ ul {
     text-align: center;
 }
 
-/* ============================================
-   MEDIA QUERIES - Tablet e Desktop
-   ============================================ */
 
-/* Tablet */
+/* Mobile: sabre embaixo da foto e cards empilhados */
+@media (max-width: 599px) {
+    .card--integrante {
+        padding-bottom: 2rem;
+    }
+
+    .sabre-luz {
+        right: auto;
+        left: 50%;
+        top: auto;
+        bottom: -55px;
+        transform: translateX(-50%);
+        height: 75px;
+    }
+
+    .perfil-sabre {
+        margin-bottom: 3.5rem;
+    }
+}
+
+
+/* Tablet: menu na horizontal e grid com 2 colunas */
 @media (min-width: 600px) {
     .header__conteudo {
         flex-direction: row;
@@ -609,7 +1143,8 @@ ul {
     }
 }
 
-/* Desktop */
+
+/* Desktop: grid com 3 colunas e textos maiores */
 @media (min-width: 900px) {
     .nav__lista a {
         font-size: 0.95rem;
