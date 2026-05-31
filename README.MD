@@ -1,60 +1,39 @@
-# ADS em Código
-
-## Tema Escolhido
-
-Portfólio Acadêmico para apresentação dos projetos desenvolvidos durante o curso de Análise e Desenvolvimento de Sistemas.
-
-## Breve Descrição
-
-O **ADS em Código** é um portfólio desenvolvido pelos alunos do curso de Análise e Desenvolvimento de Sistemas com o objetivo de apresentar os principais projetos realizados durante a graduação.
-
-O site foi construído utilizando HTML5 e CSS3, seguindo conceitos de responsividade e boas práticas de desenvolvimento web.
+# ADS em Código — Portfólio de Projetos (ADS)
 
 ## Integrantes
+- Emanoel Sousa
+- Paulo do Carmo
+- Osvaldo Cavalcante
 
-* Nome do Integrante 1
-* Nome do Integrante 2
-* Nome do Integrante 3
 
-## Principais Desafios Encontrados
+## Tema escolhido
+Portfólio de projetos do curso de Análise e Desenvolvimento de Sistemas — destaque para LogiTrack (rastreio) e Revise Car (manutenção automotiva).
 
-* Organizar o conteúdo dos projetos de forma clara e objetiva.
-* Desenvolver um layout responsivo para diferentes dispositivos.
-* Trabalhar em equipe utilizando Git e GitHub.
-* Manter a padronização visual do site.
+## Breve descrição do portfólio
+Este portfólio reúne os trabalhos desenvolvidos durante o curso ADS, documentando os objetivos, as funcionalidades e as tecnologias empregadas em cada projeto. O site foi feito principalmente com HTML5 e CSS3, com foco em organização de conteúdo, legibilidade e responsividade para dispositivos móveis.
 
-## O que Cada Integrante Fez
+## Principais desafios encontrados (o que é interessante ressaltar)
+- Responsividade e mobile-first: ajustar grids, stacks e tipografia para manter legibilidade em telas pequenas. (relevante para avaliadores)
+- Otimização de imagens e assets: reduzir peso sem perder legibilidade dos prints de celular.
+- Consistência visual: padronizar cores, espaçamentos e classes CSS entre várias páginas.
+- Acessibilidade básica: uso correto de `alt`, `label` e estrutura semântica para facilitar leitura por leitores de tela.
+- Deploy e versionamento: organizar branches e publicar no GitHub Pages.
 
-### Integrante 1
+Dica: destaque principalmente *responsividade* e *otimização de imagens*, pois são pontos claramente observáveis durante a avaliação.
 
-* Desenvolvimento da estrutura HTML.
-* Organização do conteúdo dos projetos.
+## O que cada integrante fez (preencher com o que efetivamente ocorreu)
+- Emanoel Sousa: organização do repositório, edição do `index.html`, implementação do `projetos e deploy.
+- Paulo do Carmo: prototipação e conteúdo do LogiTrack, criação de imagens e legendas, design visual.
+- Osvaldo Cavalcante: implementação do CSS responsivo, ajustes nas galerias de imagens, testes em dispositivos e ajuste final do layout.
 
-### Integrante 2
-
-* Criação do design e estilização em CSS.
-* Implementação da responsividade.
-
-### Integrante 3
-
-* Configuração do GitHub.
-* Publicação do site no GitHub Pages.
-* Produção e edição do vídeo de apresentação.
-
-## Tecnologias Utilizadas
-
-* HTML5
-* CSS3
-* Git
-* GitHub
+(Substitua as atribuições acima pelas funções reais de cada membro quando confirmar.)
 
 ## Links
-
-* GitHub Pages: https://seuusuario.github.io/repositorio
-* Vídeo de Apresentação: https://youtube.com/...
+- GitHub Pages: (cole aqui a URL do site publicado, ex.: https://seu-usuario.github.io/repositorio)
+- Vídeo de apresentação: (cole aqui o link do vídeo de demonstração)
 
 ---
 
-Projeto acadêmico desenvolvido para a disciplina de Desenvolvimento Web.
+Reflexão final: este portfólio documenta decisões de design e as soluções técnicas adotadas para problemas reais de apresentação e responsividade. A proposta foi entregar um conjunto de projetos claros, fáceis de navegar e prontos para apresentação acadêmica.
 
 © 2026 ADS em Código
