@@ -1,12 +1,14 @@
 # ADS em Código
 
-## Sobre o Projeto
+## Tema Escolhido
 
-O **ADS em Código** é um portfólio desenvolvido pelos alunos do curso de **Análise e Desenvolvimento de Sistemas** com o objetivo de apresentar os principais projetos realizados durante a graduação.
+Portfólio Acadêmico para apresentação dos projetos desenvolvidos durante o curso de Análise e Desenvolvimento de Sistemas.
 
-O site foi construído utilizando apenas **HTML5** e **CSS3**, seguindo conceitos de responsividade e boas práticas de desenvolvimento web.
+## Breve Descrição
 
----
+O **ADS em Código** é um portfólio desenvolvido pelos alunos do curso de Análise e Desenvolvimento de Sistemas com o objetivo de apresentar os principais projetos realizados durante a graduação.
+
+O site foi construído utilizando HTML5 e CSS3, seguindo conceitos de responsividade e boas práticas de desenvolvimento web.
 
 ## Integrantes
 
@@ -14,13 +16,30 @@ O site foi construído utilizando apenas **HTML5** e **CSS3**, seguindo conceito
 * Nome do Integrante 2
 * Nome do Integrante 3
 
----
+## Principais Desafios Encontrados
 
-## Objetivo
+* Organizar o conteúdo dos projetos de forma clara e objetiva.
+* Desenvolver um layout responsivo para diferentes dispositivos.
+* Trabalhar em equipe utilizando Git e GitHub.
+* Manter a padronização visual do site.
 
-Reunir em um único site os trabalhos desenvolvidos ao longo do curso, apresentando informações sobre cada projeto, tecnologias utilizadas e a experiência adquirida durante sua construção.
+## O que Cada Integrante Fez
 
----
+### Integrante 1
+
+* Desenvolvimento da estrutura HTML.
+* Organização do conteúdo dos projetos.
+
+### Integrante 2
+
+* Criação do design e estilização em CSS.
+* Implementação da responsividade.
+
+### Integrante 3
+
+* Configuração do GitHub.
+* Publicação do site no GitHub Pages.
+* Produção e edição do vídeo de apresentação.
 
 ## Tecnologias Utilizadas
 
@@ -29,30 +48,10 @@ Reunir em um único site os trabalhos desenvolvidos ao longo do curso, apresenta
 * Git
 * GitHub
 
----
-
-## Funcionalidades
-
-* Página inicial com apresentação do grupo
-* Exibição dos projetos desenvolvidos
-* Layout responsivo para celular, tablet e computador
-* Formulário de contato
-* Navegação simples e intuitiva
-
----
-
-## Como Executar
-
-1. Baixe os arquivos do projeto.
-2. Abra o arquivo `index.html` em qualquer navegador.
-
----
-
 ## Links
 
-* GitHub Pages: _______________________
-* Repositório GitHub: _______________________
-* Vídeo de Apresentação: _______________________
+* GitHub Pages: https://seuusuario.github.io/repositorio
+* Vídeo de Apresentação: https://youtube.com/...
 
 ---
 
