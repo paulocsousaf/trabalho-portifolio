@@ -285,7 +285,9 @@ ul {
 
 .card--projeto .card__img {
     height: 180px;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: var(--cinza-claro);
+    padding: 1rem;
 }
 
 .card__disciplina {
