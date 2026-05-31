@@ -32,6 +32,5 @@ Este portfólio reúne os trabalhos desenvolvidos durante o curso ADS, documenta
 
 ---
 
-Reflexão final: este portfólio documenta decisões de design e as soluções técnicas adotadas para problemas reais de apresentação e responsividade. A proposta foi entregar um conjunto de projetos claros, fáceis de navegar e prontos para apresentação acadêmica.
 
 © 2026 ADS em Código
