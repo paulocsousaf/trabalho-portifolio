@@ -1,26 +1,246 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portifólio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de projetos desenvolvidos durante o curso de ADS">
+    <title>ADS em Código | Portfólio de Projetos</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1></h1>
-    <nav></nav>
-  </header>
 
-    
-  <main>
+    <!-- HEADER -->
+    <header class="header" id="topo">
+        <div class="container header__conteudo">
+            <h1 class="header__logo">ADS em Código</h1>
+            <nav class="nav" aria-label="Menu principal">
+                <ul class="nav__lista">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#autores">Autores</a></li>
+                    <li><a href="#habilidades">Tecnologias</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <section>
-      <h2></h2>
-    </section>
+    <main>
 
-  </main>
+        <!-- HERO -->
+        <section class="hero" id="hero">
+            <div class="container hero__conteudo">
+                <h2 class="hero__titulo">Projetos do curso de ADS</h2>
+                <p class="hero__texto">
+                    Este site reúne os principais trabalhos desenvolvidos durante o curso de
+                    Análise e Desenvolvimento de Sistemas — desde sistemas web até automações
+                    e ferramentas criadas nas disciplinas.
+                </p>
+                <a href="#projetos" class="btn btn--principal">Ver projetos</a>
+            </div>
+        </section>
 
-  <footer></footer>
+        <!-- SOBRE -->
+        <section class="secao" id="sobre">
+            <div class="container">
+                <h2 class="secao__titulo">Sobre o Portfólio</h2>
+                <article class="sobre">
+                    <p>
+                        O <strong>ADS em Código</strong> nasceu como trabalho acadêmico para documentar
+                        a evolução dos estudos em programação. Aqui você encontra projetos feitos em sala,
+                        entregas de disciplinas e experimentos que mostram o que aprendemos ao longo do curso.
+                    </p>
+                    <h3>Para que serve</h3>
+                    <p>
+                        Organizar e apresentar os trabalhos de forma clara, facilitando a avaliação,
+                        a revisão do conteúdo estudado e a publicação no GitHub Pages.
+                    </p>
+                    <h3>O que você vai encontrar</h3>
+                    <ul class="lista-sobre">
+                        <li>Projetos de diferentes semestres e disciplinas</li>
+                        <li>Descrição das tecnologias usadas em cada trabalho</li>
+                        <li>Formulário para dúvidas ou feedback sobre os projetos</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- AUTORES -->
+        <section class="secao secao--cinza" id="autores">
+            <div class="container">
+                <h2 class="secao__titulo">Autores do Portfólio</h2>
+                <p class="secao__subtitulo">Estudantes que reuniram e publicaram os projetos do curso neste site.</p>
+                <div class="cards-grid cards-grid--3">
+
+                    <article class="card card--integrante">
+                        <img src="img/perfil1.jpg" alt="Foto do autor 1" class="card__img card__img--perfil">
+                        <h3>Emanoel Sousa</h3>
+                        <p>Participou da organização </p>
+                        <p class="card__tag"></p>
+                    </article>
+
+                    <article class="card card--integrante">
+                        <img src="img/perfil2.jpg" alt="Foto do autor 2" class="card__img card__img--perfil">
+                        <h3>Nome do integrante 2</h3>
+                        <p>Contribuiu </p>
+                        <p class="card__tag"></p>
+                    </article>
+
+                    <article class="card card--integrante">
+                        <img src="img/perfil3.jpg" alt="Foto do autor 3" class="card__img card__img--perfil">
+                        <h3>Nome do integrante 3</h3>
+                        <p></p>
+                        <p class="card__tag"></p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- TECNOLOGIAS -->
+        <section class="secao" id="habilidades">
+            <div class="container">
+                <h2 class="secao__titulo">Tecnologias do Curso</h2>
+                <p class="secao__subtitulo">Ferramentas e linguagens que aparecem nos projetos deste portfólio.</p>
+                <div class="cards-grid cards-grid--3">
+
+                    <article class="card card--habilidade">
+                        <h3>HTML</h3>
+                        <p>Estruturação de páginas nos trabalhos de desenvolvimento web.</p>
+                    </article>
+
+                    <article class="card card--habilidade">
+                        <h3>CSS</h3>
+                        <p>Layout responsivo aplicado neste portfólio e em outras entregas.</p>
+                    </article>
+
+                    <article class="card card--habilidade">
+                        <h3>JavaScript</h3>
+                        <p>Interatividade estudada e usada em projetos das disciplinas.</p>
+                    </article>
+
+                    <article class="card card--habilidade">
+                        <h3>Python</h3>
+                        <p>Scripts e atividades práticas de lógica de programação.</p>
+                    </article>
+
+                    <article class="card card--habilidade">
+                        <h3>Git e GitHub</h3>
+                        <p>Versionamento e publicação dos repositórios acadêmicos.</p>
+                    </article>
+
+                    <article class="card card--habilidade">
+                        <h3>Banco de Dados</h3>
+                        <p>Modelagem e SQL nos sistemas desenvolvidos no curso.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="secao secao--cinza" id="projetos">
+            <div class="container">
+                <h2 class="secao__titulo">Projetos do Curso</h2>
+                <p class="secao__subtitulo">Trabalhos desenvolvidos nas disciplinas de ADS.</p>
+                <div class="cards-grid cards-grid--3">
+
+                    <article class="card card--projeto">
+                        <img src="img/projeto1.jpg" alt="Sistema de Controle de Visitantes em Hospital" class="card__img">
+                        <h3>Controle de Visitantes em Hospital</h3>
+                        <p class="card__disciplina">Disciplina: Engenharia de Software</p>
+                        <p>Sistema para cadastro de visitantes e pacientes, registro de entradas e saídas e histórico de visitas.</p>
+                        <a href="projetos/projeto1.html" class="btn btn--secundario">Ver projeto</a>
+                    </article>
+
+                    <article class="card card--projeto">
+                        <img src="img/projeto2.jpg" alt="Monitor de Vídeos para vMix" class="card__img">
+                        <h3>Monitor de Vídeos para vMix</h3>
+                        <p class="card__disciplina">Disciplina: Projeto Integrador</p>
+                        <p>Ferramenta para monitorar vídeos e playlists em transmissões, criada em atividade do curso.</p>
+                        <a href="projetos/projeto2.html" class="btn btn--secundario">Ver projeto</a>
+                    </article>
+
+                    <article class="card card--projeto">
+                        <img src="img/projeto3.jpg" alt="Portfólio Responsivo" class="card__img">
+                        <h3>Portfólio Responsivo</h3>
+                        <p class="card__disciplina">Disciplina: Desenvolvimento Web</p>
+                        <p>Este site — portfólio em HTML5 e CSS3 puro, com páginas para cada projeto do curso.</p>
+                        <a href="projetos/projeto3.html" class="btn btn--secundario">Ver projeto</a>
+                    </article>
+
+                    <article class="card card--projeto">
+                        <img src="img/projeto4.jpg" alt="CRUD de Alunos" class="card__img">
+                        <h3>CRUD de Alunos</h3>
+                        <p class="card__disciplina">Disciplina: Banco de Dados</p>
+                        <p>Cadastro simples de alunos com criar, listar, editar e excluir registros no banco.</p>
+                        <a href="projetos/projeto4.html" class="btn btn--secundario">Ver projeto</a>
+                    </article>
+
+                    <article class="card card--projeto">
+                        <img src="img/projeto5.jpg" alt="Calculadora em Python" class="card__img">
+                        <h3>Calculadora em Python</h3>
+                        <p class="card__disciplina">Disciplina: Lógica de Programação</p>
+                        <p>Calculadora no terminal para praticar operações e estruturas de decisão.</p>
+                        <a href="projetos/projeto5.html" class="btn btn--secundario">Ver projeto</a>
+                    </article>
+
+                    <article class="card card--projeto">
+                        <img src="img/projeto6.jpg" alt="Landing Page" class="card__img">
+                        <h3>Landing Page</h3>
+                        <p class="card__disciplina">Disciplina: Desenvolvimento Web</p>
+                        <p>Página de apresentação de produto fictício, focada em layout e CSS.</p>
+                        <a href="projetos/projeto6.html" class="btn btn--secundario">Ver projeto</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="secao secao--cinza" id="contato">
+            <div class="container">
+                <h2 class="secao__titulo">Contato</h2>
+                <p class="contato__intro">Tem dúvida sobre algum projeto ou quer dar um feedback? Envie uma mensagem.</p>
+
+                <form class="formulario" action="#" method="post">
+                    <div class="formulario__grupo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                    </div>
+
+                    <div class="formulario__grupo">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </div>
+
+                    <div class="formulario__grupo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem sobre os projetos..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn--principal">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__conteudo">
+            <ul class="footer__links">
+                <li>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </li>
+                <li>
+                    <a href="mailto:adsemcodigo@email.com">Email</a>
+                </li>
+            </ul>
+            <p class="footer__direitos">&copy; 2026 ADS em Código. Portfólio acadêmico — todos os direitos reservados.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
