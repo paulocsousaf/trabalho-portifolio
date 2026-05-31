@@ -10,7 +10,7 @@
 Portfólio de projetos do curso de Análise e Desenvolvimento de Sistemas 
 
 ## Breve descrição do portfólio
-Este portfólio reúne os trabalhos desenvolvidos durante o curso ADS, documentando os objetivos, as funcionalidades e as tecnologias empregadas em cada projeto. O site foi feito principalmente com HTML5 e CSS3, com foco em organização de conteúdo, legibilidade e responsividade para dispositivos móveis.
+Este portfólio reúne os trabalhos desenvolvidos durante o curso ADS, documentando os objetivos, as funcionalidades e as tecnologias empregadas em cada projeto. O site foi feito principalmente com HTML5 e CSS3, com foco em organização de conteúdo, legibilidade e responsividade.
 
 ## Principais desafios encontrados (o que é interessante ressaltar)
 - Responsividade e mobile-first: ajustar grids, stacks e tipografia para manter legibilidade em telas pequenas. (relevante para avaliadores)
