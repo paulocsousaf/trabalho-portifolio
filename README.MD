@@ -7,11 +7,11 @@
 
 
 ## Tema escolhido
-<<<<<<< HEAD
+
 Portfólio de projetos do curso de Análise e Desenvolvimento de Sistemas — três projetos do grupo: Controle de Visitantes em Hospital, Revise Car e LogiTrack.
 =======
 Portfólio de projetos do curso de Análise e Desenvolvimento de Sistemas 
->>>>>>> cf0944da08a168e9cd239695b3229ee935d1772f
+
 
 ## Breve descrição do portfólio
 Este portfólio reúne os trabalhos desenvolvidos durante o curso ADS, documentando os objetivos, as funcionalidades e as tecnologias empregadas em cada projeto. O site foi feito principalmente com HTML5 e CSS3, com foco em organização de conteúdo, legibilidade e responsividade.
@@ -31,8 +31,8 @@ Este portfólio reúne os trabalhos desenvolvidos durante o curso ADS, documenta
 
 
 ## Links
-- GitHub Pages: (cole aqui a URL do site publicado, ex.: https://seu-usuario.github.io/repositorio)
-- Vídeo de apresentação: (cole aqui o link do vídeo de demonstração)
+- GitHub Pages: https://paulocsousaf.github.io/trabalho-portifolio/
+- Vídeo de apresentação: 
 
 ---
 
