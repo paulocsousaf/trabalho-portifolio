@@ -34,7 +34,7 @@ Este portfólio reúne os trabalhos desenvolvidos durante o curso ADS, documenta
 
 ## Links
 - GitHub Pages: https://paulocsousaf.github.io/trabalho-portifolio/
-- Vídeo de apresentação: 
+- Vídeo de apresentação: https://youtu.be/SE5RTPStSQs
 
 ---
 
