@@ -189,7 +189,7 @@
                 <h2 class="secao__titulo">Contato</h2>
                 <p class="contato__intro">Tem dúvida sobre algum projeto ou quer dar um feedback? Envie uma mensagem.</p>
 
-                <form class="formulario" action="#" method="post">
+                <form class="formulario" id="formulario-contato" action="#" method="post">
                     <div class="formulario__grupo">
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
@@ -206,6 +206,7 @@
                     </div>
 
                     <button type="submit" class="btn btn--principal">Enviar</button>
+                    <p class="formulario__mensagem formulario__mensagem--sucesso" id="mensagem-sucesso" style="display: none;">✓ Mensagem enviada com sucesso!</p>
                 </form>
             </div>
         </section>
@@ -218,6 +219,31 @@
             <p class="footer__direitos">&copy; 2026 ADS em Código</p>
         </div>
     </footer>
+
+    <script>
+        document.getElementById('formulario-contato').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const mensagemSucesso = document.getElementById('mensagem-sucesso');
+            const botao = this.querySelector('button[type="submit"]');
+            const textoOriginal = botao.textContent;
+            
+            // Exibir mensagem de sucesso
+            mensagemSucesso.style.display = 'block';
+            botao.textContent = 'Enviado!';
+            botao.disabled = true;
+            
+            // Limpar formulário
+            this.reset();
+            
+            // Restaurar botão após 3 segundos
+            setTimeout(() => {
+                botao.textContent = textoOriginal;
+                botao.disabled = false;
+                mensagemSucesso.style.display = 'none';
+            }, 3000);
+        });
+    </script>
 
 </body>
 </html>
